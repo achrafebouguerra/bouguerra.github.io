@@ -22,6 +22,7 @@ Credit: www.templatemo.com
 
 *, body { font-family: 'Open Sans', sans-serif; }
 body { margin-bottom: 30px; }
+
 h1 {
 	font-weight: 300;
 	font-size: 36px;
@@ -83,7 +84,7 @@ h2 {
 .templatemo-bg-gray { background-color: #eee; }
 .templatemo-bg-gray h1 { color: rgb(74, 164, 180); }
 .templatemo-bg-image-1 {
-	background-color: rgb(60,60,60);
+	background-color: rgb(91, 91, 91);
 	background-image: url(../images/templatemo-bg-1.jpg);	
 }
 .templatemo-bg-image-2 {
