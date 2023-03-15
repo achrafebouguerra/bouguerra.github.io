@@ -1,0 +1,50 @@
+
+
+
+
+
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    color: aliceblue;
+    margin:auto;
+    font-weight: 500;
+
+}
+
+
+.title{
+
+    background: #f25;
+    padding: 7px 0;
+    margin: 7px 0;
+    border-radius: 15px ;
+
+
+}
+
+span{
+    color: #fa0;
+
+
+}
+
+.square{
+    width: 80px;
+    height: 80px;
+    background: #f25;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    border-radius: 15px ;
+  
+
+
+}
+.square:hover{
+  
+    background: #000;
+    cursor: pointer;
+}
+
