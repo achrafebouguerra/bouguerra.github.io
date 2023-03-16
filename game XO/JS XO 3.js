@@ -15,6 +15,7 @@ function reset()
         document.getElementById('item'+ i).style.background = 'white';
         document.getElementById('item'+ i).innerHTML ='';
         title.innerHTML = oldTitle;
+        turn = 'x'
        
     }
  
