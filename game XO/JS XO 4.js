@@ -112,14 +112,17 @@ function game(id)
        element.innerHTML = 'X'
        turn = 'o';
        title.innerHTML = 'O';
-       element.style.background = '#000';
+       element.style.background = 'white' ;
+       element.style.color = 'red';
+       
     }
     else if(turn ==='o' && element.innerHTML == '')
     {
         element.innerHTML ='O' ;
         turn ='x';
         title.innerHTML = 'X';
-       element.style.background = '#fa0';
+        element.style.background = 'white' ;
+        element.style.color = 'black';
 
     }
     winner();
