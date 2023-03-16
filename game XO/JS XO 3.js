@@ -94,24 +94,25 @@ function game(id)
 {
     console.log(id)
     let element = document.getElementById(id);
+    console.log(element )
     if(turn === 'x' && element.innerHTML == '')
     {
-       element.innerHTML = 'X'
-       turn = 'o';
-       title.innerHTML = 'O';
-       element.style.background = 'white' ;
-       element.style.color = 'red';
-       
-    }
-    else if(turn ==='o' && element.innerHTML == '')
-    {
-        element.innerHTML ='O' ;
-        turn ='x';
-        title.innerHTML = 'X';
+        element.innerHTML = '&#10060'
+        turn = 'o';
+        title.innerHTML = '&#11093';
         element.style.background = 'white' ;
-        element.style.color = 'black';
-
-    }
+        element.style.color = 'red';
+        
+     }
+     else if(turn ==='o' && element.innerHTML == '')
+     {
+         element.innerHTML ='&#11093' ;
+         turn ='x';
+         title.innerHTML = '&#10060';
+         element.style.background = 'white' ;
+         element.style.color = 'black';
+ 
+     }
     winner();
 
 

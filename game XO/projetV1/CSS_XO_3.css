@@ -4,7 +4,7 @@
 
 
 .game{
- 
+  
     text-align: center;
     font-family: system-ui;
     color:aliceblue;
@@ -65,5 +65,5 @@ span{
 body{
 
 
-    background-image: url(téléchargement.jpeg);
+    background-color: coral;
 }
