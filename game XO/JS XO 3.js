@@ -7,17 +7,17 @@ let oldTitle = title.innerHTML;
 
 function reset()
 {
-     location.reload();
+     //location.reload();
 
     console.log('i am her')
     for(let i = 1; i<17;i++)
     {
-        document.getElementById('item'+ i).style.background = '#f25';
+        document.getElementById('item'+ i).style.background = 'white';
         document.getElementById('item'+ i).innerHTML ='';
-        var sqr = document.getElementById('item'+ i);
+        title.innerHTML = oldTitle;
        
     }
-    title.innerHTML = oldTitle;
+ 
   
  
  }
