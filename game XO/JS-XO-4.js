@@ -19,12 +19,7 @@ function reset()
        
     }
 
-  
- 
  }
-
-
-
 
 function end(num1,num2,num3,num4)
 {

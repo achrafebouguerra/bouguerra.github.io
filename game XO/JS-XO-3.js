@@ -10,21 +10,16 @@ function reset()
      //location.reload();
 
     console.log('i am her')
-    for(let i = 1; i<17;i++)
+    for(let i = 1; i<10;i++)
     {
         document.getElementById('item'+ i).style.background = 'white';
         document.getElementById('item'+ i).innerHTML ='';
         title.innerHTML = oldTitle;
         turn = 'x' ;
-       
+        
     }
  
-  
- 
  }
-
-
-
 
 function end(num1,num2,num3)
 {

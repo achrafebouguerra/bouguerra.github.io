@@ -7,7 +7,7 @@ let oldTitle = title.innerHTML;
 
 function reset()
 {
-    //location.reload();
+     //location.reload();
 
     console.log('i am her')
     for(let i = 1; i<37;i++)
@@ -17,15 +17,9 @@ function reset()
         title.innerHTML = oldTitle;
         turn = 'x' ;
       
-       
     }
  
-  
- 
  }
-
-
-
 
 function end(num1,num2,num3,num4,num5,num6)
 {
