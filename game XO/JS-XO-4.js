@@ -105,23 +105,21 @@ function game(id)
     let element = document.getElementById(id);
     if(turn === 'x' && element.innerHTML == '')
     {
-       element.innerHTML = '&#10060'
-       turn = 'o';
-       title.innerHTML = '&#11093';
-       element.style.background = 'white' ;
-       element.style.color = 'red';
-       
-    }
-    else if(turn ==='o' && element.innerHTML == '')
-    {
-        element.innerHTML ='&#11093' ;
-        turn ='x';
-        title.innerHTML = '&#10060';
+        element.innerHTML = '&#128151'
+        turn = 'o';
+        title.innerHTML = '&#128420';
         element.style.background = 'white' ;
-        element.style.color = 'black';
-
-    }
+        //element.style.color = 'red';
+        
+     }
+     else if(turn ==='o' && element.innerHTML == '')
+     {
+         element.innerHTML ='&#128420' ;
+         turn ='x';
+         title.innerHTML = '&#128151';
+         element.style.background = 'white' ;
+         //element.style.color = 'black';
+ 
+     }
     winner();
-
-
 }
