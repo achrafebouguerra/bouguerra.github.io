@@ -147,7 +147,7 @@ function game(id)
         turn = 'o';
         title.innerHTML = '&#11093';
         element.style.background = 'white' ;
-        element.style.color = 'red';
+        //element.style.color = 'red';
         
      }
      else if(turn ==='o' && element.innerHTML == '')
@@ -156,7 +156,7 @@ function game(id)
          turn ='x';
          title.innerHTML = '&#10060';
          element.style.background = 'white' ;
-         element.style.color = 'black';
+         //element.style.color = 'black';
  
      }
     winner();
