@@ -93,23 +93,21 @@ function game(id)
     console.log(element )
     if(turn === 'x' && element.innerHTML == '')
     {
-        element.innerHTML = '&#10060'
+        element.innerHTML = '&#128151'
         turn = 'o';
-        title.innerHTML = '&#11093';
+        title.innerHTML = '&#128420';
         element.style.background = 'white' ;
-        element.style.color = 'red';
+        //element.style.color = 'red';
         
      }
      else if(turn ==='o' && element.innerHTML == '')
      {
-         element.innerHTML ='&#11093' ;
+         element.innerHTML ='&#128420' ;
          turn ='x';
-         title.innerHTML = '&#10060';
+         title.innerHTML = '&#128151';
          element.style.background = 'white' ;
-         element.style.color = 'black';
+         //element.style.color = 'black';
  
      }
     winner();
-
-
 }
