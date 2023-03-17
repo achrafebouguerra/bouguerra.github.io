@@ -155,7 +155,7 @@ function game(id)
          element.innerHTML ='&#11093' ;
          turn ='x';
          title.innerHTML = '&#10060';
-         element.style.background = 'white' ;
+         element.style.background = 'black' ;
          //element.style.color = 'black';
  
      }
