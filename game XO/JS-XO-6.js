@@ -143,7 +143,7 @@ function game(id)
     let element = document.getElementById(id);
     if(turn === 'x' && element.innerHTML == '')
     {
-        element.innerHTML = '&#10060'
+        element.innerHTML = '&#128151'
         turn = 'o';
         title.innerHTML = '&#11093';
         element.style.background = 'white' ;
@@ -154,7 +154,7 @@ function game(id)
      {
          element.innerHTML ='&#11093' ;
          turn ='x';
-         title.innerHTML = '&#10060';
+         title.innerHTML = '&#128151';
          element.style.background = 'black' ;
          //element.style.color = 'black';
  
