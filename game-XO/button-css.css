@@ -1,0 +1,50 @@
+.game{
+
+    text-align: center;
+    
+}
+
+button{
+
+    width: 260px;
+    height: 100px;
+    background: white;
+    border-radius: 50px  60px 70px 80px ;
+    text-align: center;
+    font-size: 70px;
+    color: black;
+
+
+
+
+
+}
+
+button:hover{
+  
+    background: white;
+    cursor: pointer;
+}
+
+h1{
+    color:white;
+
+    text-align: center;
+    
+
+
+}
+
+span{
+    color:white;
+
+
+}
+
+body{
+
+
+    background-image: url(téléchargement.jpeg);
+
+
+}
